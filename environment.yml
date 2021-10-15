@@ -11,5 +11,7 @@ dependencies:
   - jupyterlab-git
   - ipython
   - pip:
+    - jupyter-book
+    - ghp-import
     - git+https://github.com/myles/lazy-myles.git@main
 
