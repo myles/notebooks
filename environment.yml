@@ -10,8 +10,6 @@ dependencies:
   - jupyterlab
   - jupyterlab-git
   - ipython
+  - pip
   - pip:
-    - jupyter-book
-    - ghp-import
     - git+https://github.com/myles/lazy-myles.git@main
-
