@@ -1,0 +1,15 @@
+name: notebooks
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - geopandas
+  - jupyter
+  - jupyterlab
+  - jupyterlab-git
+  - ipython
+  - pip:
+    - git+https://github.com/myles/lazy-myles.git@main
+
