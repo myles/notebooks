@@ -4,42 +4,39 @@ on:
   push:
     branches:
     - main
-    paths:
-    - 'archive/**'
+    # paths:
+    # - 'archive/**'
 
 jobs:
   build-and-deploy-book:
-    runs-on: {{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        python-version: [3.8]
+
+    runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout the repository.
-      uses: actions/checkout@v2
 
-    - name: Setup the conda environment.
-      uses: conda-incubator/setup-miniconda@v2
-      with:
-        auto-update-conda: true
-        python-version: ${{ matrix.python-version }}
-        activate-environment: notebooks
-        environment-file: environment.yml
-        auto-activate-base: true
+      - name: Checkout the repository.
+        uses: actions/checkout@v2
 
-    - name: Show some conda metadata.
-      run: |
-        conda info
-        conda list
+      - name: Setup the conda environment.
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          auto-update-conda: true
+          python-version: 3.8
+          activate-environment: notebooks
+          environment-file: environment.yml
+          auto-activate-base: true
 
-    - name: Build the book.
-      run: |
-        jupyter-book build archive
+      - name: Show some conda metadata.
+        run: |
+          conda info
+          conda list
 
-    - name: Deploy the book's HTML  to the gh-pages branch.
-      uses: peaceiris/actions-gh-pages@v3.6.1
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: notebooks/_build/html
+      - name: Build the book.
+        run: |
+          jupyter-book build archive
 
+      - name: Deploy the book's HTML  to the gh-pages branch.
+        uses: peaceiris/actions-gh-pages@v3.6.1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: notebooks/_build/html
