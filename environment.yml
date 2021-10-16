@@ -5,6 +5,7 @@ channels:
 dependencies:
   - numpy
   - pandas
+  - pandas-profiling
   - geopandas
   - jupyter
   - jupyterlab
