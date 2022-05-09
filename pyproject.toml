@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "notebooks"
+version = "0.1.0"
+description = ""
+authors = ["Myles Braithwaite <me@mylesbraithwaite.com>"]
+
+[tool.poetry.dependencies]
+python = "3.10.4"
+numpy = "^1.22.3"
+pandas = "^1.4.2"
+pandas-profiling = "^3.2.0"
+geopandas = "^0.10.2"
+jupyterlab = "^3.4.0"
+jupyterlab-git = "^0.37.1"
+ipython = "^8.3.0"
+lazy-myles = {git = "https://github.com/myles/lazy-myles.git", rev = "main"}
+importlib-metadata = "^4.11.3"
