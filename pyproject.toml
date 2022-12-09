@@ -15,5 +15,4 @@ jupyterlab-git = "^0.37.1"
 ipython = "^8.3.0"
 lazy-myles = {git = "https://github.com/myles/lazy-myles.git", rev = "main"}
 importlib-metadata = "^4.11.3"
-DALL-E = "^0.1"
 ipywidgets = "^7.7.0"
