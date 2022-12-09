@@ -1,0 +1,794 @@
+{
+    "redirects": [
+        {
+            "destination": "https://myles.social/2022/11/01/204923.html",
+            "permanent": true,
+            "source": "/2022/11/01/204923.html"
+        },
+        {
+            "destination": "https://myles.social/2022/09/25/082135.html",
+            "permanent": true,
+            "source": "/2022/09/25/082135.html"
+        },
+        {
+            "destination": "https://myles.social/2022/07/12/clive-thompson-writes.html",
+            "permanent": true,
+            "source": "/2022/07/12/clive-thompson-writes.html"
+        },
+        {
+            "destination": "https://myles.social/2022/07/12/first-image-for.html",
+            "permanent": true,
+            "source": "/2022/07/12/first-image-for.html"
+        },
+        {
+            "destination": "https://myles.social/2022/05/06/snazzy-labs-has.html",
+            "permanent": true,
+            "source": "/2022/05/06/snazzy-labs-has.html"
+        },
+        {
+            "destination": "https://myles.social/2021/12/20/amazing-sky-today.html",
+            "permanent": true,
+            "source": "/2021/12/20/amazing-sky-today.html"
+        },
+        {
+            "destination": "https://myles.social/2021/10/25/this-is-theo.html",
+            "permanent": true,
+            "source": "/2021/10/25/this-is-theo.html"
+        },
+        {
+            "destination": "https://myles.social/2021/10/24/went-to-the.html",
+            "permanent": true,
+            "source": "/2021/10/24/went-to-the.html"
+        },
+        {
+            "destination": "https://myles.social/2021/10/16/my-jade-plant.html",
+            "permanent": true,
+            "source": "/2021/10/16/my-jade-plant.html"
+        },
+        {
+            "destination": "https://myles.social/2021/10/03/flowers-on-a.html",
+            "permanent": true,
+            "source": "/2021/10/03/flowers-on-a.html"
+        },
+        {
+            "destination": "https://myles.social/2021/08/22/amazing-sky-last.html",
+            "permanent": true,
+            "source": "/2021/08/22/amazing-sky-last.html"
+        },
+        {
+            "destination": "https://myles.social/2021/08/15/104127.html",
+            "permanent": true,
+            "source": "/2021/08/15/104127.html"
+        },
+        {
+            "destination": "https://myles.social/2021/08/02/went-up-to.html",
+            "permanent": true,
+            "source": "/2021/08/02/went-up-to.html"
+        },
+        {
+            "destination": "https://myles.social/2021/07/19/hazy-day-in.html",
+            "permanent": true,
+            "source": "/2021/07/19/hazy-day-in.html"
+        },
+        {
+            "destination": "https://myles.social/2021/05/18/095336.html",
+            "permanent": true,
+            "source": "/2021/05/18/095336.html"
+        },
+        {
+            "destination": "https://myles.social/2021/05/18/went-for-a.html",
+            "permanent": true,
+            "source": "/2021/05/18/went-for-a.html"
+        },
+        {
+            "destination": "https://myles.social/2021/04/28/some-new-leafs.html",
+            "permanent": true,
+            "source": "/2021/04/28/some-new-leafs.html"
+        },
+        {
+            "destination": "https://myles.social/2021/03/28/i-made-some.html",
+            "permanent": true,
+            "source": "/2021/03/28/i-made-some.html"
+        },
+        {
+            "destination": "https://myles.social/2021/01/27/snowy-street-in.html",
+            "permanent": true,
+            "source": "/2021/01/27/snowy-street-in.html"
+        },
+        {
+            "destination": "https://myles.social/2021/01/24/finished-reading-everything.html",
+            "permanent": true,
+            "source": "/2021/01/24/finished-reading-everything.html"
+        },
+        {
+            "destination": "https://myles.social/2021/01/23/photos-from-my.html",
+            "permanent": true,
+            "source": "/2021/01/23/photos-from-my.html"
+        },
+        {
+            "destination": "https://myles.social/2020/11/29/sunset-over-lake.html",
+            "permanent": true,
+            "source": "/2020/11/29/sunset-over-lake.html"
+        },
+        {
+            "destination": "https://myles.social/2020/11/09/raccoon-taking-a.html",
+            "permanent": true,
+            "source": "/2020/11/09/raccoon-taking-a.html"
+        },
+        {
+            "destination": "https://myles.social/2020/10/08/graffiti.html",
+            "permanent": true,
+            "source": "/2020/10/08/graffiti.html"
+        },
+        {
+            "destination": "https://myles.social/2020/10/03/printed-a-adapter.html",
+            "permanent": true,
+            "source": "/2020/10/03/printed-a-adapter.html"
+        },
+        {
+            "destination": "https://myles.social/2020/09/19/went-for-a.html",
+            "permanent": true,
+            "source": "/2020/09/19/went-for-a.html"
+        },
+        {
+            "destination": "https://myles.social/2020/09/14/this-whole-tiktok.html",
+            "permanent": true,
+            "source": "/2020/09/14/this-whole-tiktok.html"
+        },
+        {
+            "destination": "https://myles.social/2020/09/14/this-is-a.html",
+            "permanent": true,
+            "source": "/2020/09/14/this-is-a.html"
+        },
+        {
+            "destination": "https://myles.social/2020/09/12/there-is-a.html",
+            "permanent": true,
+            "source": "/2020/09/12/there-is-a.html"
+        },
+        {
+            "destination": "https://myles.social/2020/09/07/one-minute-of.html",
+            "permanent": true,
+            "source": "/2020/09/07/one-minute-of.html"
+        },
+        {
+            "destination": "https://myles.social/2020/09/07/this-vox-video.html",
+            "permanent": true,
+            "source": "/2020/09/07/this-vox-video.html"
+        },
+        {
+            "destination": "https://myles.social/2020/09/06/my-sleep-schedule.html",
+            "permanent": true,
+            "source": "/2020/09/06/my-sleep-schedule.html"
+        },
+        {
+            "destination": "https://myles.social/2020/09/05/more-street-art.html",
+            "permanent": true,
+            "source": "/2020/09/05/more-street-art.html"
+        },
+        {
+            "destination": "https://myles.social/2020/08/26/been-finding-some.html",
+            "permanent": true,
+            "source": "/2020/08/26/been-finding-some.html"
+        },
+        {
+            "destination": "https://myles.social/2020/08/12/lovable.html",
+            "permanent": true,
+            "source": "/2020/08/12/lovable.html"
+        },
+        {
+            "destination": "https://myles.social/2020/08/09/stormy-looking-weather.html",
+            "permanent": true,
+            "source": "/2020/08/09/stormy-looking-weather.html"
+        },
+        {
+            "destination": "https://myles.social/2020/07/29/sunset-in-high.html",
+            "permanent": true,
+            "source": "/2020/07/29/sunset-in-high.html"
+        },
+        {
+            "destination": "https://myles.social/2020/07/26/some-flowers-from.html",
+            "permanent": true,
+            "source": "/2020/07/26/some-flowers-from.html"
+        },
+        {
+            "destination": "https://myles.social/2020/07/18/play-around-with.html",
+            "permanent": true,
+            "source": "/2020/07/18/play-around-with.html"
+        },
+        {
+            "destination": "https://myles.social/2020/07/08/did-my-morning.html",
+            "permanent": true,
+            "source": "/2020/07/08/did-my-morning.html"
+        },
+        {
+            "destination": "https://myles.social/2020/07/04/really-like-githubs.html",
+            "permanent": true,
+            "source": "/2020/07/04/really-like-githubs.html"
+        },
+        {
+            "destination": "https://myles.social/2020/07/03/its-so-hot.html",
+            "permanent": true,
+            "source": "/2020/07/03/its-so-hot.html"
+        },
+        {
+            "destination": "https://myles.social/2020/06/30/toronto-skyline.html",
+            "permanent": true,
+            "source": "/2020/06/30/toronto-skyline.html"
+        },
+        {
+            "destination": "https://myles.social/2020/05/28/foggy-late-afternoon.html",
+            "permanent": true,
+            "source": "/2020/05/28/foggy-late-afternoon.html"
+        },
+        {
+            "destination": "https://myles.social/2020/05/19/the-toronto-skyline.html",
+            "permanent": true,
+            "source": "/2020/05/19/the-toronto-skyline.html"
+        },
+        {
+            "destination": "https://myles.social/2020/05/19/i-feel-personally.html",
+            "permanent": true,
+            "source": "/2020/05/19/i-feel-personally.html"
+        },
+        {
+            "destination": "https://myles.social/2020/05/16/theyve-open-ontario.html",
+            "permanent": true,
+            "source": "/2020/05/16/theyve-open-ontario.html"
+        },
+        {
+            "destination": "https://myles.social/2020/05/11/current-status-watching.html",
+            "permanent": true,
+            "source": "/2020/05/11/current-status-watching.html"
+        },
+        {
+            "destination": "https://myles.social/2020/05/09/awesome-sky-over.html",
+            "permanent": true,
+            "source": "/2020/05/09/awesome-sky-over.html"
+        },
+        {
+            "destination": "https://myles.social/2020/05/02/social-distancing-from.html",
+            "permanent": true,
+            "source": "/2020/05/02/social-distancing-from.html"
+        },
+        {
+            "destination": "https://myles.social/2020/04/27/the-tree-outside.html",
+            "permanent": true,
+            "source": "/2020/04/27/the-tree-outside.html"
+        },
+        {
+            "destination": "https://myles.social/2020/04/26/harley-quinn.html",
+            "permanent": true,
+            "source": "/2020/04/26/harley-quinn.html"
+        },
+        {
+            "destination": "https://myles.social/2020/04/25/endless-summer.html",
+            "permanent": true,
+            "source": "/2020/04/25/endless-summer.html"
+        },
+        {
+            "destination": "https://myles.social/2020/04/25/making-some-cookies.html",
+            "permanent": true,
+            "source": "/2020/04/25/making-some-cookies.html"
+        },
+        {
+            "destination": "https://myles.social/2020/04/23/i-just-spent.html",
+            "permanent": true,
+            "source": "/2020/04/23/i-just-spent.html"
+        },
+        {
+            "destination": "https://myles.social/2020/04/18/under-the-gardiner.html",
+            "permanent": true,
+            "source": "/2020/04/18/under-the-gardiner.html"
+        },
+        {
+            "destination": "https://myles.social/2020/03/22/going-for-a.html",
+            "permanent": true,
+            "source": "/2020/03/22/going-for-a.html"
+        },
+        {
+            "destination": "https://myles.social/2020/03/20/ive-never-seen.html",
+            "permanent": true,
+            "source": "/2020/03/20/ive-never-seen.html"
+        },
+        {
+            "destination": "https://myles.social/2020/03/14/quiet-day-at.html",
+            "permanent": true,
+            "source": "/2020/03/14/quiet-day-at.html"
+        },
+        {
+            "destination": "https://myles.social/2020/03/09/mythic-quest-is.html",
+            "permanent": true,
+            "source": "/2020/03/09/mythic-quest-is.html"
+        },
+        {
+            "destination": "https://myles.social/2020/02/29/ill-be-presenting.html",
+            "permanent": true,
+            "source": "/2020/02/29/ill-be-presenting.html"
+        },
+        {
+            "destination": "https://myles.social/2020/02/21/i-just-spent.html",
+            "permanent": true,
+            "source": "/2020/02/21/i-just-spent.html"
+        },
+        {
+            "destination": "https://myles.social/2020/02/16/brazilian-nuts-are.html",
+            "permanent": true,
+            "source": "/2020/02/16/brazilian-nuts-are.html"
+        },
+        {
+            "destination": "https://myles.social/2020/02/10/225448.html",
+            "permanent": true,
+            "source": "/2020/02/10/225448.html"
+        },
+        {
+            "destination": "https://myles.social/2020/02/09/winter-lights-at.html",
+            "permanent": true,
+            "source": "/2020/02/09/winter-lights-at.html"
+        },
+        {
+            "destination": "https://myles.social/2020/02/09/forgotten-context-message.html",
+            "permanent": true,
+            "source": "/2020/02/09/forgotten-context-message.html"
+        },
+        {
+            "destination": "https://myles.social/2020/02/03/im-going-to.html",
+            "permanent": true,
+            "source": "/2020/02/03/im-going-to.html"
+        },
+        {
+            "destination": "https://myles.social/2020/02/01/sometimes-laziness-is.html",
+            "permanent": true,
+            "source": "/2020/02/01/sometimes-laziness-is.html"
+        },
+        {
+            "destination": "https://myles.social/2020/01/29/stephen-childs-talking.html",
+            "permanent": true,
+            "source": "/2020/01/29/stephen-childs-talking.html"
+        },
+        {
+            "destination": "https://myles.social/2020/01/28/wolf-parades-new.html",
+            "permanent": true,
+            "source": "/2020/01/28/wolf-parades-new.html"
+        },
+        {
+            "destination": "https://myles.social/2020/01/10/i-broke-my.html",
+            "permanent": true,
+            "source": "/2020/01/10/i-broke-my.html"
+        },
+        {
+            "destination": "https://myles.social/2020/01/08/i-havent-seen.html",
+            "permanent": true,
+            "source": "/2020/01/08/i-havent-seen.html"
+        },
+        {
+            "destination": "https://myles.social/2020/01/03/great-last-day.html",
+            "permanent": true,
+            "source": "/2020/01/03/great-last-day.html"
+        },
+        {
+            "destination": "https://myles.social/2020/01/02/great-day-skiing.html",
+            "permanent": true,
+            "source": "/2020/01/02/great-day-skiing.html"
+        },
+        {
+            "destination": "https://myles.social/2020/01/02/when-you-move.html",
+            "permanent": true,
+            "source": "/2020/01/02/when-you-move.html"
+        },
+        {
+            "destination": "https://myles.social/2020/01/01/to-do-list.html",
+            "permanent": true,
+            "source": "/2020/01/01/to-do-list.html"
+        },
+        {
+            "destination": "https://myles.social/2020/01/01/fireworks-from-last.html",
+            "permanent": true,
+            "source": "/2020/01/01/fireworks-from-last.html"
+        },
+        {
+            "destination": "https://myles.social/2019/12/31/night-time.html",
+            "permanent": true,
+            "source": "/2019/12/31/night-time.html"
+        },
+        {
+            "destination": "https://myles.social/2019/12/29/mountains-in-sun.html",
+            "permanent": true,
+            "source": "/2019/12/29/mountains-in-sun.html"
+        },
+        {
+            "destination": "https://myles.social/2019/12/27/todays-skiing-at.html",
+            "permanent": true,
+            "source": "/2019/12/27/todays-skiing-at.html"
+        },
+        {
+            "destination": "https://myles.social/2019/12/26/arrived-on-kanloops.html",
+            "permanent": true,
+            "source": "/2019/12/26/arrived-on-kanloops.html"
+        },
+        {
+            "destination": "https://myles.social/2019/12/26/current-status-calgary.html",
+            "permanent": true,
+            "source": "/2019/12/26/current-status-calgary.html"
+        },
+        {
+            "destination": "https://myles.social/2019/12/14/paper-plane-at.html",
+            "permanent": true,
+            "source": "/2019/12/14/paper-plane-at.html"
+        },
+        {
+            "destination": "https://myles.social/2019/12/12/selena-presenting-on.html",
+            "permanent": true,
+            "source": "/2019/12/12/selena-presenting-on.html"
+        },
+        {
+            "destination": "https://myles.social/2019/12/07/toronto-waterfront.html",
+            "permanent": true,
+            "source": "/2019/12/07/toronto-waterfront.html"
+        },
+        {
+            "destination": "https://myles.social/2019/12/05/ive-recently-switched.html",
+            "permanent": true,
+            "source": "/2019/12/05/ive-recently-switched.html"
+        },
+        {
+            "destination": "https://myles.social/2019/12/01/its-a-very.html",
+            "permanent": true,
+            "source": "/2019/12/01/its-a-very.html"
+        },
+        {
+            "destination": "https://myles.social/2019/11/17/peter-mccormick-talking.html",
+            "permanent": true,
+            "source": "/2019/11/17/peter-mccormick-talking.html"
+        },
+        {
+            "destination": "https://myles.social/2019/11/17/watching-franoise-provencher.html",
+            "permanent": true,
+            "source": "/2019/11/17/watching-franoise-provencher.html"
+        },
+        {
+            "destination": "https://myles.social/2019/11/12/photos-from-tonights.html",
+            "permanent": true,
+            "source": "/2019/11/12/photos-from-tonights.html"
+        },
+        {
+            "destination": "https://myles.social/2019/11/12/green-trees-with.html",
+            "permanent": true,
+            "source": "/2019/11/12/green-trees-with.html"
+        },
+        {
+            "destination": "https://myles.social/2019/11/11/im-going-to.html",
+            "permanent": true,
+            "source": "/2019/11/11/im-going-to.html"
+        },
+        {
+            "destination": "https://myles.social/2019/11/09/went-for-a.html",
+            "permanent": true,
+            "source": "/2019/11/09/went-for-a.html"
+        },
+        {
+            "destination": "https://myles.social/2019/11/09/leaving-to-go.html",
+            "permanent": true,
+            "source": "/2019/11/09/leaving-to-go.html"
+        },
+        {
+            "destination": "https://myles.social/2019/11/05/skate-city-for.html",
+            "permanent": true,
+            "source": "/2019/11/05/skate-city-for.html"
+        },
+        {
+            "destination": "https://myles.social/2019/11/03/my-new-normal.html",
+            "permanent": true,
+            "source": "/2019/11/03/my-new-normal.html"
+        },
+        {
+            "destination": "https://myles.social/2019/10/27/uoft-in-the.html",
+            "permanent": true,
+            "source": "/2019/10/27/uoft-in-the.html"
+        },
+        {
+            "destination": "https://myles.social/2019/10/22/pair-programming-with.html",
+            "permanent": true,
+            "source": "/2019/10/22/pair-programming-with.html"
+        },
+        {
+            "destination": "https://myles.social/2019/10/19/i-like-the.html",
+            "permanent": true,
+            "source": "/2019/10/19/i-like-the.html"
+        },
+        {
+            "destination": "https://myles.social/2019/10/19/one-of-my.html",
+            "permanent": true,
+            "source": "/2019/10/19/one-of-my.html"
+        },
+        {
+            "destination": "https://myles.social/2019/10/14/software-development-and.html",
+            "permanent": true,
+            "source": "/2019/10/14/software-development-and.html"
+        },
+        {
+            "destination": "https://myles.social/2019/10/13/inglis-falls.html",
+            "permanent": true,
+            "source": "/2019/10/13/inglis-falls.html"
+        },
+        {
+            "destination": "https://myles.social/2019/10/13/sitting-on-the.html",
+            "permanent": true,
+            "source": "/2019/10/13/sitting-on-the.html"
+        },
+        {
+            "destination": "https://myles.social/2019/10/12/bruce-trail-in.html",
+            "permanent": true,
+            "source": "/2019/10/12/bruce-trail-in.html"
+        },
+        {
+            "destination": "https://myles.social/2019/10/11/driving-up-north.html",
+            "permanent": true,
+            "source": "/2019/10/11/driving-up-north.html"
+        },
+        {
+            "destination": "https://myles.social/2019/10/10/kind-of-failed.html",
+            "permanent": true,
+            "source": "/2019/10/10/kind-of-failed.html"
+        },
+        {
+            "destination": "https://myles.social/2019/10/06/photos-from-nuit.html",
+            "permanent": true,
+            "source": "/2019/10/06/photos-from-nuit.html"
+        },
+        {
+            "destination": "https://myles.social/2019/10/04/a-nuit-blanche.html",
+            "permanent": true,
+            "source": "/2019/10/04/a-nuit-blanche.html"
+        },
+        {
+            "destination": "https://myles.social/2019/10/02/its-a-really.html",
+            "permanent": true,
+            "source": "/2019/10/02/its-a-really.html"
+        },
+        {
+            "destination": "https://myles.social/2019/09/28/a-love-letter.html",
+            "permanent": true,
+            "source": "/2019/09/28/a-love-letter.html"
+        },
+        {
+            "destination": "https://myles.social/2019/09/28/cool-street-art.html",
+            "permanent": true,
+            "source": "/2019/09/28/cool-street-art.html"
+        },
+        {
+            "destination": "https://myles.social/2019/09/28/rainy-day-at.html",
+            "permanent": true,
+            "source": "/2019/09/28/rainy-day-at.html"
+        },
+        {
+            "destination": "https://myles.social/2019/09/26/finally-my-stress.html",
+            "permanent": true,
+            "source": "/2019/09/26/finally-my-stress.html"
+        },
+        {
+            "destination": "https://myles.social/2019/09/24/got-my-first.html",
+            "permanent": true,
+            "source": "/2019/09/24/got-my-first.html"
+        },
+        {
+            "destination": "https://myles.social/2019/09/16/first-day-a.html",
+            "permanent": true,
+            "source": "/2019/09/16/first-day-a.html"
+        },
+        {
+            "destination": "https://myles.social/2019/09/13/last-day-at.html",
+            "permanent": true,
+            "source": "/2019/09/13/last-day-at.html"
+        },
+        {
+            "destination": "https://myles.social/2019/09/11/im-going-to.html",
+            "permanent": true,
+            "source": "/2019/09/11/im-going-to.html"
+        },
+        {
+            "destination": "https://myles.social/2019/09/11/took-the-wrong.html",
+            "permanent": true,
+            "source": "/2019/09/11/took-the-wrong.html"
+        },
+        {
+            "destination": "https://myles.social/2019/09/07/living-near-the.html",
+            "permanent": true,
+            "source": "/2019/09/07/living-near-the.html"
+        },
+        {
+            "destination": "https://myles.social/2019/09/06/ann-powers-review.html",
+            "permanent": true,
+            "source": "/2019/09/06/ann-powers-review.html"
+        },
+        {
+            "destination": "https://myles.social/2019/09/06/for-the-second.html",
+            "permanent": true,
+            "source": "/2019/09/06/for-the-second.html"
+        },
+        {
+            "destination": "https://myles.social/2019/09/06/go-train-stoped.html",
+            "permanent": true,
+            "source": "/2019/09/06/go-train-stoped.html"
+        },
+        {
+            "destination": "https://myles.social/2019/09/05/had-an-awesome.html",
+            "permanent": true,
+            "source": "/2019/09/05/had-an-awesome.html"
+        },
+        {
+            "destination": "https://myles.social/2019/09/04/finally-finished-my.html",
+            "permanent": true,
+            "source": "/2019/09/04/finally-finished-my.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/31/from-a-hike.html",
+            "permanent": true,
+            "source": "/2019/08/31/from-a-hike.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/30/field-of-alfalfa.html",
+            "permanent": true,
+            "source": "/2019/08/30/field-of-alfalfa.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/30/photos-from-a.html",
+            "permanent": true,
+            "source": "/2019/08/30/photos-from-a.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/28/at-the-farm.html",
+            "permanent": true,
+            "source": "/2019/08/28/at-the-farm.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/27/had-margaritas-last.html",
+            "permanent": true,
+            "source": "/2019/08/27/had-margaritas-last.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/25/just-finished-my.html",
+            "permanent": true,
+            "source": "/2019/08/25/just-finished-my.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/24/pictures-from-walking.html",
+            "permanent": true,
+            "source": "/2019/08/24/pictures-from-walking.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/21/back-on-the.html",
+            "permanent": true,
+            "source": "/2019/08/21/back-on-the.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/20/im-excited-to.html",
+            "permanent": true,
+            "source": "/2019/08/20/im-excited-to.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/21/lana-del-rey.html",
+            "permanent": true,
+            "source": "/2019/08/21/lana-del-rey.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/20/hasan-minhaj-on.html",
+            "permanent": true,
+            "source": "/2019/08/20/hasan-minhaj-on.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/20/in-four-weeks.html",
+            "permanent": true,
+            "source": "/2019/08/20/in-four-weeks.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/19/stuck-at-long.html",
+            "permanent": true,
+            "source": "/2019/08/19/stuck-at-long.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/19/apple-spends-more.html",
+            "permanent": true,
+            "source": "/2019/08/19/apple-spends-more.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/19/do-boring-speakers.html",
+            "permanent": true,
+            "source": "/2019/08/19/do-boring-speakers.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/18/currently-reading-annihilation.html",
+            "permanent": true,
+            "source": "/2019/08/18/currently-reading-annihilation.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/18/my-fortune-cookie.html",
+            "permanent": true,
+            "source": "/2019/08/18/my-fortune-cookie.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/18/datadriven-design-is.html",
+            "permanent": true,
+            "source": "/2019/08/18/datadriven-design-is.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/16/ugly-gerry-is.html",
+            "permanent": true,
+            "source": "/2019/08/16/ugly-gerry-is.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/16/amazon-is-using.html",
+            "permanent": true,
+            "source": "/2019/08/16/amazon-is-using.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/16/template-errors-in.html",
+            "permanent": true,
+            "source": "/2019/08/16/template-errors-in.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/14/june-oven-owners.html",
+            "permanent": true,
+            "source": "/2019/08/14/june-oven-owners.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/13/currently-reading-draplin.html",
+            "permanent": true,
+            "source": "/2019/08/13/currently-reading-draplin.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/13/listening-to-tooth.html",
+            "permanent": true,
+            "source": "/2019/08/13/listening-to-tooth.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/12/ill-be-attending.html",
+            "permanent": true,
+            "source": "/2019/08/12/ill-be-attending.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/11/sitting-in-a.html",
+            "permanent": true,
+            "source": "/2019/08/11/sitting-in-a.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/10/i-summer-in.html",
+            "permanent": true,
+            "source": "/2019/08/10/i-summer-in.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/10/thinknum-a-dataset.html",
+            "permanent": true,
+            "source": "/2019/08/10/thinknum-a-dataset.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/08/scooters-arent-as.html",
+            "permanent": true,
+            "source": "/2019/08/08/scooters-arent-as.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/06/waiting-to-go.html",
+            "permanent": true,
+            "source": "/2019/08/06/waiting-to-go.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/04/outside-is-awesome.html",
+            "permanent": true,
+            "source": "/2019/08/04/outside-is-awesome.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/03/hobb-shaw-was.html",
+            "permanent": true,
+            "source": "/2019/08/03/hobb-shaw-was.html"
+        },
+        {
+            "destination": "https://myles.social/2019/08/01/chance-the-rapper.html",
+            "permanent": true,
+            "source": "/2019/08/01/chance-the-rapper.html"
+        },
+        {
+            "destination": "https://myles.social/2019/07/30/to-create-a.html",
+            "permanent": true,
+            "source": "/2019/07/30/to-create-a.html"
+        }
+    ]
+}
