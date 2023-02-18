@@ -6,13 +6,12 @@ authors = ["Myles Braithwaite <me@mylesbraithwaite.com>"]
 
 [tool.poetry.dependencies]
 python = "3.9.16"
-geopandas = "^0.12.2"
-importlib-metadata = "^6.0.0"
-ipython = "^8.10.0"
-ipywidgets = "^8.0.4"
-jupyterlab = "^3.6.1"
-jupyterlab-git = "^0.41.0"
+geopandas = "*"
+importlib-metadata = "*"
+ipython = "*"
+ipywidgets = "*"
+jupyterlab = "*"
+jupyterlab-git = "*"
 lazy-myles = {git = "https://github.com/myles/lazy-myles.git", rev = "main"}
-numpy = "^1.24.2"
-pandas = "^1.5.3"
-pandas-profiling = "^3.2.0"
+numpy = "*"
+pandas = "*"
