@@ -13,5 +13,6 @@ ipywidgets = "*"
 jupyterlab = "*"
 jupyterlab-git = "*"
 lazy-myles = {git = "https://github.com/myles/lazy-myles.git", rev = "main"}
+matplotlib = "^3.7.1"
 numpy = "*"
 pandas = "*"
