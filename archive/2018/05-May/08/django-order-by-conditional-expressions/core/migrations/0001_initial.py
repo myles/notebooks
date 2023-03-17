@@ -5,32 +5,51 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='HotList',
+            name="HotList",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('prospect_list', django.contrib.postgres.fields.ArrayField(base_field=models.IntegerField(), size=10)),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                (
+                    "prospect_list",
+                    django.contrib.postgres.fields.ArrayField(
+                        base_field=models.IntegerField(), size=10
+                    ),
+                ),
             ],
             options={
-                'db_table': 'host_lists',
+                "db_table": "host_lists",
             },
         ),
         migrations.CreateModel(
-            name='Prospect',
+            name="Prospect",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('name', models.CharField(max_length=100, verbose_name='name')),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("name", models.CharField(max_length=100, verbose_name="name")),
             ],
             options={
-                'db_table': 'prospects',
-                'ordering': ('name',),
+                "db_table": "prospects",
+                "ordering": ("name",),
             },
         ),
     ]
