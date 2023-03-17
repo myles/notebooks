@@ -16,3 +16,7 @@ lazy-myles = {git = "https://github.com/myles/lazy-myles.git", rev = "main"}
 matplotlib = "^3.7.1"
 numpy = "*"
 pandas = "*"
+
+[tool.poetry.group.dev.dependencies]
+black = {extras = ["jupyter"], version = "^23.1.0"}
+
