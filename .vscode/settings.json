@@ -4,5 +4,8 @@
   "[quarto]": {
     "editor.defaultFormatter": "quarto.quarto"
   },
-  "cSpell.words": ["Vercel"]
+  "cSpell.words": ["Vercel"],
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-workflow.json": "file:///Users/myles/Projects/notebooks/.github/workflows/deploy.yml"
+  }
 }

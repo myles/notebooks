@@ -1,0 +1,73 @@
+name: Deploy
+
+"on":
+  push:
+    branches:
+      - "main"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - id: start
+        name: "Get the start time in epoch 🎬"
+        run: echo "::set-output name=timestamp::$(date +'%s')"
+
+      - id: checkout
+        name: "Checkout 🛎"
+        uses: actions/checkout@v2
+
+      - id: setup-python
+        name: "Setup Python ${{ matrix.python-version }} 🏗"
+        uses: actions/setup-python@v1
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - id: setup-quarto
+        name: "Setup Quarto 🏗"
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - id: setup-vercel
+        name: "Setup Vercel CLI"
+        run: npm install --global vercel@latest
+
+      - id: setup-poetry
+        name: "Setup Poetry 📝"
+        run: |
+          curl -sSL https://install.python-poetry.org | python3 -
+
+      - id: get-cache-poetry-directory
+        name: "Get poetry's cache directory 🔎"
+        run: |
+          echo "::set-output name=dir::$(poetry config cache-dir)"
+
+      - id: cache-poetry-directory
+        name: "Cache poetry 📦"
+        uses: actions/cache@v3.0.11
+        with:
+          path: ${{ steps.get-cache-poetry-directory.outputs.dir }}
+          key: ${{ runner.os }}-poetry-${{ hashFiles('poetry.lock') }}
+          restore-keys: ${{ runner.os }}-poetry-
+
+      - id: install-dependencies
+        name: "Install dependencies 👨🏻‍💻"
+        run: make setup
+
+      - id: cache-database
+        name: "Cache Quarto Cache Directory 📦"
+        uses: actions/cache@v3.0.11
+        with:
+          path: archive/.quarto
+          key: quarto-cache
+
+      - id: build-quarto
+        name: "Build the Quarto 🗂️"
+        run: make quarto-render
+
+      - id: deploy
+        name: "Deploy Quarto to Vercel 🚀"
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: vercel deploy
