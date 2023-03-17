@@ -63,10 +63,6 @@ jobs:
           path: archive/.quarto
           key: quarto-cache
 
-      - id: build-quarto
-        name: "Build the Quarto 🗂️"
-        run: make quarto-render
-
       - id: deploy-development
         name: "Deploy Quarto to Vercel Development 🚀"
         if: github.ref != 'refs/heads/main'

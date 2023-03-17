@@ -1,4 +1,7 @@
 {
+  "buildCommand": "make quarto-render",
   "cleanUrls": true,
+  "devCommand": "make quarto-preview",
+  "framework": null,
   "outputDirectory": "archive/_site/"
 }
