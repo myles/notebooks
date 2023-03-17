@@ -26,6 +26,10 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
+      - id: setup-quarto
+        name: "Setup Quarto 🏗"
+        uses: quarto-dev/quarto-actions/setup@v2
+
       - id: setup-poetry
         name: "Setup Poetry 📝"
         run: |
