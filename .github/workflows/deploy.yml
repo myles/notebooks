@@ -3,17 +3,17 @@ name: Deploy
 "on":
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
-    steps:
-      - id: start
-        name: "Get the start time in epoch 🎬"
-        run: echo "::set-output name=timestamp::$(date +'%s')"
+    runs-on: ${{ matrix.os }}
 
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        python-version: [3.9]
+
+    steps:
       - id: checkout
         name: "Checkout 🛎"
         uses: actions/checkout@v2
@@ -29,7 +29,7 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - id: setup-vercel
-        name: "Setup Vercel CLI"
+        name: "Setup Vercel CLI 🏗"
         run: npm install --global vercel@latest
 
       - id: setup-poetry
