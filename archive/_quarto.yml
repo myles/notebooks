@@ -1,0 +1,16 @@
+project:
+  type: website
+
+website:
+  title: "Myles' Notebooks"
+  body-footer: "Made by [Myles Braithwaite](https://mylesb.ca/) with ❤️ in Toronto."
+  navbar:
+    right:
+      - icon: github
+        href: https://github.com/myles/notebooks
+  repo-url: https://github.com/myles/notesbooks
+  repo-subdir: archive
+
+format:
+  html:
+    theme: cosmo

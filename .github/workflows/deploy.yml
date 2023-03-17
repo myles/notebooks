@@ -1,0 +1,90 @@
+name: Deploy
+
+"on":
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        python-version: [3.9]
+
+    steps:
+      - id: checkout
+        name: "Checkout 🛎"
+        uses: actions/checkout@v2
+
+      - id: setup-python
+        name: "Setup Python ${{ matrix.python-version }} 🏗"
+        uses: actions/setup-python@v1
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - id: setup-quarto
+        name: "Setup Quarto 🏗"
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - id: setup-vercel
+        name: "Setup Vercel CLI 🏗"
+        run: npm install --global vercel@latest
+
+      - id: setup-poetry
+        name: "Setup Poetry 📝"
+        run: |
+          curl -sSL https://install.python-poetry.org | python3 -
+
+      - id: get-cache-poetry-directory
+        name: "Get poetry's cache directory 🔎"
+        run: |
+          echo "::set-output name=dir::$(poetry config cache-dir)"
+
+      - id: cache-poetry-directory
+        name: "Cache poetry 📦"
+        uses: actions/cache@v3.0.11
+        with:
+          path: ${{ steps.get-cache-poetry-directory.outputs.dir }}
+          key: ${{ runner.os }}-poetry-${{ hashFiles('poetry.lock') }}
+          restore-keys: ${{ runner.os }}-poetry-
+
+      - id: install-dependencies
+        name: "Install dependencies 👨🏻‍💻"
+        run: make setup
+
+      - id: cache-database
+        name: "Cache Quarto Cache Directory 📦"
+        uses: actions/cache@v3.0.11
+        with:
+          path: archive/.quarto
+          key: quarto-cache
+
+      - id: build-quarto
+        name: "Build the Quarto 🗂️"
+        run: make quarto-render
+
+      - id: deploy-development
+        name: "Deploy Quarto to Vercel Development 🚀"
+        if: github.ref != 'refs/heads/main'
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          vercel pull --yes --environment=development --token=${{ secrets.VERCEL_TOKEN }}
+          vercel deploy --token=${{ secrets.VERCEL_TOKEN }}
+
+      - id: deploy-production
+        name: "Deploy Quarto to Vercel Production 🚀"
+        if: github.ref == 'refs/heads/main'
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+          vercel deploy --prod --token=${{ secrets.VERCEL_TOKEN }}
