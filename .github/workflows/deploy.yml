@@ -67,8 +67,20 @@ jobs:
         name: "Build the Quarto 🗂️"
         run: make quarto-render
 
-      - id: deploy
+      - id: deploy-development
+        name: "Deploy Quarto to Vercel Development 🚀"
+        if: github.ref != 'refs/heads/main'
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: |
+          vercel pull --yes --environment=development --token=${{ secrets.VERCEL_TOKEN }}
+          vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
+
+      - id: deploy-production
         name: "Deploy Quarto to Vercel Production 🚀"
+        if: github.ref == 'refs/heads/main'
         env:
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
