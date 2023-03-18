@@ -1,6 +1,71 @@
 {
     "redirects": [
         {
+            "destination": "https://myles.social/2023/03/11/made-coffee-coffee.html",
+            "permanent": true,
+            "source": "/2023/03/11/made-coffee-coffee.html"
+        },
+        {
+            "destination": "https://myles.social/2023/03/06/illuminated-mushroom-at.html",
+            "permanent": true,
+            "source": "/2023/03/06/illuminated-mushroom-at.html"
+        },
+        {
+            "destination": "https://myles.social/2023/03/04/snowy-day-in.html",
+            "permanent": true,
+            "source": "/2023/03/04/snowy-day-in.html"
+        },
+        {
+            "destination": "https://myles.social/2023/02/08/whats-the-point.html",
+            "permanent": true,
+            "source": "/2023/02/08/whats-the-point.html"
+        },
+        {
+            "destination": "https://myles.social/2023/01/30/sunset-from-ontario.html",
+            "permanent": true,
+            "source": "/2023/01/30/sunset-from-ontario.html"
+        },
+        {
+            "destination": "https://myles.social/2023/01/05/i-super-agree.html",
+            "permanent": true,
+            "source": "/2023/01/05/i-super-agree.html"
+        },
+        {
+            "destination": "https://myles.social/2023/01/03/162832.html",
+            "permanent": true,
+            "source": "/2023/01/03/162832.html"
+        },
+        {
+            "destination": "https://myles.social/2023/01/03/beautiful-morning-in.html",
+            "permanent": true,
+            "source": "/2023/01/03/beautiful-morning-in.html"
+        },
+        {
+            "destination": "https://myles.social/2022/12/30/built-a-couple.html",
+            "permanent": true,
+            "source": "/2022/12/30/built-a-couple.html"
+        },
+        {
+            "destination": "https://myles.social/2022/12/22/doing-the-holiday.html",
+            "permanent": true,
+            "source": "/2022/12/22/doing-the-holiday.html"
+        },
+        {
+            "destination": "https://myles.social/2022/12/17/made-some-chocolate.html",
+            "permanent": true,
+            "source": "/2022/12/17/made-some-chocolate.html"
+        },
+        {
+            "destination": "https://myles.social/2022/12/15/im-kind-of.html",
+            "permanent": true,
+            "source": "/2022/12/15/im-kind-of.html"
+        },
+        {
+            "destination": "https://myles.social/2022/11/21/its-a-bit.html",
+            "permanent": true,
+            "source": "/2022/11/21/its-a-bit.html"
+        },
+        {
             "destination": "https://myles.social/2022/11/01/204923.html",
             "permanent": true,
             "source": "/2022/11/01/204923.html"

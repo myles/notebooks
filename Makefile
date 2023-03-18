@@ -15,6 +15,10 @@ lintfix:
 jupyter-lab:
 	poetry run jupyter lab .
 
+.PHONY: jupyter-nbconvert
+jupyter-nbconvert: */*/*/*/*/index.ipynb
+	poetry run jupyter nbconvert --execute --to notebook --inplace */*/*/*/*/index.ipynb
+
 .PHONY: quarto-preview
 quarto-preview: archive/_quarto.yml
 	quarto preview ./archive/

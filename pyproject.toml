@@ -14,8 +14,11 @@ jupyterlab = "*"
 jupyterlab-git = "*"
 lazy-myles = {git = "https://github.com/myles/lazy-myles.git", rev = "main"}
 matplotlib = "^3.7.1"
+nbconvert = "^7.2.10"
 numpy = "*"
 pandas = "*"
+python-slugify = {extras = ["unidecode"], version = "^8.0.1"}
+selenium = "^4.8.2"
 
 [tool.poetry.group.dev.dependencies]
 black = {extras = ["jupyter"], version = "^23.1.0"}

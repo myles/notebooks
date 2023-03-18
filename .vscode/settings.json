@@ -1,11 +1,17 @@
 {
+  "cSpell.words": ["Vercel"],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wrappingIndent": "same",
+  "editor.wordWrapColumn": 80,
   "[quarto]": {
     "editor.defaultFormatter": "quarto.quarto"
   },
-  "cSpell.words": ["Vercel"],
   "yaml.schemas": {
-    "https://json.schemastore.org/github-workflow.json": "file:///Users/myles/Projects/notebooks/.github/workflows/deploy.yml"
+    "https://json.schemastore.org/github-workflow.json": [
+      ".github/workflows/deploy.yml",
+      ".github/workflows/test.yml"
+    ]
   }
 }
