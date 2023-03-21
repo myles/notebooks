@@ -63,6 +63,10 @@ jobs:
           path: archive/.quarto
           key: quarto-cache
 
+      - id: update-notebooks
+        name: "Update Jupyter Notebooks 📒"
+        run: make jupyter-nbconvert
+
       - id: deploy-development
         name: "Deploy Quarto to Vercel Development 🚀"
         if: github.ref != 'refs/heads/main'

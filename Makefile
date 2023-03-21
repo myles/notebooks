@@ -15,9 +15,11 @@ lintfix:
 jupyter-lab:
 	poetry run jupyter lab .
 
+UPDATE_NOTEBOOKS = archive/2023/03-March/04/us-interest-rates/index.ipynb
+
 .PHONY: jupyter-nbconvert
-jupyter-nbconvert: */*/*/*/*/index.ipynb
-	poetry run jupyter nbconvert --execute --to notebook --inplace */*/*/*/*/index.ipynb
+jupyter-nbconvert: ${UPDATE_NOTEBOOKS}
+	poetry run jupyter nbconvert --execute --to notebook --inplace ${UPDATE_NOTEBOOKS}
 
 .PHONY: quarto-preview
 quarto-preview: archive/_quarto.yml
