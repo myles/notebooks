@@ -15,7 +15,7 @@ lintfix:
 jupyter-lab:
 	poetry run jupyter lab .
 
-UPDATE_NOTEBOOKS = archive/2023/03-March/04/us-interest-rates/index.ipynb
+UPDATE_NOTEBOOKS = archive/2023/*/*/*/index.ipynb
 
 .PHONY: jupyter-nbconvert
 jupyter-nbconvert: ${UPDATE_NOTEBOOKS}
